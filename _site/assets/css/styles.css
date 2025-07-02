@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Terminal Grotesque";
+  src: "/fonts/terminal-grotesque-webfont.woff";
+}
+body {
+  font-family: "Terminal Grotesque";
+}
+
 .current {
   color: green;
 }
