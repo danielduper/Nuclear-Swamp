@@ -1,3 +1,5 @@
+#Variaveis de definição de layout e de coleção de autores.
+
 collections:
   authors:
     output: true

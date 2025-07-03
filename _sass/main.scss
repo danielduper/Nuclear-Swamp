@@ -1,25 +1,14 @@
+/*Importações CSS/SASS*/
+
 /*Importando a fonte*/
 @import url("/assets/fonts/main-font/grotesque.css");
+/*Importando as configurações do post*/
+@import url("/assets/css/post.scss");
+
 
 /*Principal*/
-
 body {
   font-family:'Terminal Grotesque';
-}
-
-/*Texto do post*/
-#post-text {
-  margin: 0 200px;
-   p {
-    color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-      img {
-        padding: 1em;
-        }
-    }
 }
 
 /*Barra de navegação*/

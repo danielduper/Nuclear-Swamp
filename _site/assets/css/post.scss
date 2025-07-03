@@ -1,0 +1,15 @@
+
+/*Texto do post*/
+#post-text {
+  margin: 0 200px;
+   p {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+      img {
+        padding: 1em;
+        }
+    }
+}
