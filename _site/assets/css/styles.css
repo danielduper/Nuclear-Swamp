@@ -6,8 +6,18 @@ body {
   font-family: "Terminal Grotesque";
 }
 
-#content {
-  margin: 0 400px;
+/*Texto do post*/
+#post-text {
+  margin: 0 200px;
+}
+#post-text p {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#post-text p img {
+  padding: 1em;
 }
 
 /*Barra de navegação*/
