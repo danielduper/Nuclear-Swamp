@@ -1,18 +1,20 @@
-@font-face {
-  font-family: 'Terminal Grotesque';
-  src: '/fonts/terminal-grotesque-webfont.woff';
-}
+/*Importando a fonte*/
+@import url("/assets/fonts/main-font/grotesque.css");
 
-
+/*Principal*/
 body {
-  font-family: 'Terminal Grotesque';
+  font-family:'Terminal Grotesque';
+}
+
+#content {
+  margin: 0 400px;
 }
 
 
+/*Barra de navegação*/
 .current {
   color: green;
 }
-
 .another {
     color: pink;
 }
