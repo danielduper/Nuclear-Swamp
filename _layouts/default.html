@@ -2,11 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!--Variável de título da página-->
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
+    <!--Incluindo a barra de navegação-->
     {% include navigation.html %}
+    <!--Conteúdo em si-->
     {{ content }}
   </body>
 </html>
