@@ -1,0 +1,31 @@
+@import url("/assets/fonts/main-font/grotesque.css");
+body {
+  color: #ffffff;
+  font-family: "Terminal Grotesque";
+  background-color: #000000;
+}
+
+.current {
+  color: rgb(229, 255, 0);
+}
+
+.another {
+  color: rgb(255, 0, 43);
+}
+
+#post-text {
+  border: solid #ff0000;
+  padding: 1em;
+  margin: 0 100px;
+}
+#post-text p {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#post-text p img {
+  padding: 1em;
+}
+
+/*# sourceMappingURL=styles.css.map */

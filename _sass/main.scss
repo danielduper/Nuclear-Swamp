@@ -1,21 +1,16 @@
-/*Importações CSS/SASS*/
 
-/*Importando a fonte*/
 @import url("/assets/fonts/main-font/grotesque.css");
-/*Importando as configurações do post*/
-@import url("/assets/css/post.scss");
-
-
-/*Principal*/
 
 body {
+  color: #ffffff;
   font-family:'Terminal Grotesque';
+  background-color: #000000;
 }
 
-/*Barra de navegação*/
+
 .current {
-  color: green;
+  color: rgb(229, 255, 0);
 }
 .another {
-    color: pink;
+    color: rgb(255, 0, 43);
 }
