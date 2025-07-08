@@ -11,7 +11,7 @@ fotoNav.addEventListener("click", () => {
     }
 });
 
-//------------------------------------
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 let botao = document.querySelector("button");
 let titulo = document.querySelector("h1");
