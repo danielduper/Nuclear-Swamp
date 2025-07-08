@@ -28,4 +28,13 @@ body {
   padding: 1em;
 }
 
+h1:hover {
+  color: rgb(111, 0, 255);
+}
+
+img:hover {
+  transition: 0.2s;
+  transform: scale(0.95);
+}
+
 /*# sourceMappingURL=styles.css.map */
